@@ -1,0 +1,18 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .nav-link {
+  padding: 15px 20px;
+  font-size: 1.1rem;
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
